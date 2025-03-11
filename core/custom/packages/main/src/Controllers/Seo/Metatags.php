@@ -78,7 +78,7 @@ trait Metatags
                     $metadescription = 'Покупайте ' .  evo()->documentObject['pagetitle'];
                     break;
                 case evo()->getConfig('articles_template_id'):      // статья
-                    $metadescription = 'Покупайте ' .  evo()->documentObject['pagetitle'];
+                    $metadescription = 'Читайте ' .  evo()->documentObject['pagetitle'];
 
                     break;
                 default:
